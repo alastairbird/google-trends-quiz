@@ -33,7 +33,13 @@ background-size: cover;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-bottom: 90px;
+	flex-direction: column;
+}
+
+.header h1 {
+	font-size: 45px;
+	padding-top: 45px;
+	padding-bottom: 45px;
 }
 
 /*Questions*/
