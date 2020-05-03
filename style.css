@@ -1,9 +1,25 @@
+/*
+	Default settings:
+	- One example
+	- 5 Questions
+	- Add 'has-ten-questions' to <section class="questions"> for 10 questions format
+*/
+
+.questions.has-ten-questions {
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+
 .body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
   	font-family: 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Helvetica, Arial,sans-serif;
+
+
+  	background: #fafdff url('triangles.svg');
 }
 
 .wrapper {
@@ -15,15 +31,23 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-bottom: 30px;
+	padding-bottom: 90px;
 }
+
+.header__logo {
+	padding: 40px;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
 
 .questions {
 	width: 80%;
 	margin: 0 auto;
 	display: grid;
-	grid-template-rows: 1fr 1fr;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-gap: 30px;
 }
 
@@ -85,6 +109,6 @@
 .questions__link:visited,
 .questions__link {
 	color: #fff;
-	font-size: 20px;
+	font-size: 36px;
 	text-decoration: none;
 }
