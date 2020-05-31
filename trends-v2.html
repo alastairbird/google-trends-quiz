@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google Trends!</title>
+  	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="norm.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="body">
+	<div class="wrapper">
+		<header class="header">
+			<img class="header__logo" src="trends-logo.svg" width="300">
+			<h1>Which search term is more popular at the moment?</h1>
+		</header>
+		<section class="questions">
+			
+			<div class="questions__item">
+				<a class="questions__link" href="https://trends.google.com/trends/explore?geo=GB&q=Chalk,Cheese" target="_blank">
+					<span class="questions__link__inner">
+						<span class="questions__link__title">
+							Example:
+						</span>
+						A: Chalk<br>B: Cheese
+					</span>
+				</a>
+				<label class="questions__label js-label"><span>Example</span></label>
+			</div>
+			<div class="questions__item">
+				<a class="questions__link" href="https://trends.google.com/trends/explore?geo=GB&q=When%20will%20pubs%20open,When%20will%20schools%20open" target="_blank">
+					<span class="questions__link__inner questions__link__inner--small-font">
+						<span class="questions__link__title">
+							Question 1:
+						</span>
+						A: When will pubs open<br> B: When will schools open
+					</span>
+				</a>
+				<label class="questions__label js-label"><span>1</span></label>
+			</div>
+			<div class="questions__item">
+				<a class="questions__link " href="https://trends.google.co.uk/trends/explore?date=now%207-d&geo=GB&q=how%20to%20make%20bunting,how%20to%20make%20a%20mask%20at%20home" target="_blank">
+					<span class="questions__link__inner questions__link__inner--small-font">
+						<span class="questions__link__title">
+							Question 2:
+						</span>
+						A: How to make bunting <br>B: How to make a mask at home
+					</span>
+				</a>
+				<label class="questions__label js-label"><span>2</span></label>
+			</div>
+			<div class="questions__item">
+				<a class="questions__link" href="https://trends.google.com/trends/explore?geo=GB&q=face%20mask,hand%20sanitizer" target="_blank">
+					<span class="questions__link__inner">
+						<span class="questions__link__title">
+							Question 3:
+						</span>
+						A: Face mask <br>B: Hand sanitizer
+					</span>
+				</a>
+				<label class="questions__label js-label"><span>3</span></label>
+			</div>
+			<div class="questions__item">
+				<a class="questions__link" href="https://trends.google.co.uk/trends/explore?date=now%207-d&geo=GB&q=netflix,Amazon%20prime" target="_blank">
+					<span class="questions__link__inner">
+						<span class="questions__link__title">
+							Question 4:
+						</span>
+						A: Netflix <br>B: Amazon Prime
+					</span>
+				</a>
+				<label class="questions__label js-label"><span>4</span></label>
+			</div>
+			<div class="questions__item">
+				<a class="questions__link" href="https://trends.google.co.uk/trends/explore?geo=GB&q=Jeff%20Bezos,Bill%20Gates" target="_blank">
+					<span class="questions__link__inner">
+						<span class="questions__link__title">
+							Question 5:
+						</span>
+						A: Jeff Bezos <br>B: Bill Gates
+					</span>
+				</a>
+				<label class="questions__label js-label"><span>5</span></label>
+			</div>
+		</section>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="quiz.js"></script>
+</body>
+</html>
